@@ -1,0 +1,155 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  color: white;
+  width: 250px;
+  height: 480px;
+  background-color: #1d204b;
+  border-radius: 20px;
+}
+
+.left .name-area {
+  background-color: hsl(246, 80%, 60%);
+  padding: 20px;
+  height: 280px;
+  border-radius: 20px;
+}
+
+.left .name-area h1,
+.left .name-area p {
+  font-weight: 300;
+}
+
+.left .name-area h1 {
+  font-size: 40px;
+}
+
+.left .name-area p {
+  margin-bottom: -20px;
+}
+
+.user-text {
+  margin-top: 40px;
+}
+
+.left .image-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  /* text-align: center; */
+  background-color: white;
+  border-radius: 50%;
+}
+
+.left .image-area img {
+  width: 70px;
+}
+
+.left .menu-area {
+  padding: 20px;
+}
+
+.left .menu-area p {
+  color: #41447b;
+}
+
+.left .menu-area .active {
+  color: #ffffff;
+}
+
+.right {
+  width: 810px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  position: relative;
+  margin-top: -70px;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.box .logo {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.content-box {
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+  margin-top: 50px;
+  height: 150px;
+  background-color: #1d204b;
+  border-radius: 20px;
+}
+
+.content-box .head-content-box {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  align-items: center;
+}
+
+.content-box .body-content-box {
+  color: white;
+  font-weight: 300;
+}
+
+.content-box .body-content-box h1 {
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.content-box .body-content-box p {
+  margin-top: -30px;
+  font-size: 13px;
+}
+
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.self-care {
+  background-color: hsl(43, 84%, 65%);
+}
